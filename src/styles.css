@@ -1,0 +1,59 @@
+    /* Professional + subtle feminine accents */
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial; background:#ffffff;color:#0f1724;line-height:1.6}
+
+/* Layout */
+.container{max-width:1000px;margin:0 auto;padding:28px}
+
+/* Navbar */
+.nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+.brand{font-weight:700;font-size:20px;color:#223344}
+.nav-links{display:flex;gap:12px;align-items:center}
+.nav-links a{text-decoration:none;color:#475569;padding:8px 10px;border-radius:8px;font-weight:600}
+.cta{background:linear-gradient(90deg,#a78bfa,#60a5b3);color:#fff;padding:8px 12px;border-radius:10px;text-decoration:none;font-weight:700}
+
+/* Hero */
+.hero{display:flex;gap:28px;align-items:center;padding:36px 0}
+.left{flex:1}
+.right{flex:1;display:flex;justify-content:center}
+.hero-title{font-size:28px;color:#0f1724;font-weight:700}
+.hero-sub{color:#475569;margin-top:8px}
+.actions{margin-top:18px;display:flex;gap:12px}
+
+/* Profile Card */
+.profile-card{background:#ffffff;padding:18px;border-radius:14px;border:1px solid rgba(34,51,68,0.06);box-shadow:0 10px 30px rgba(16,24,40,0.04);text-align:center}
+.profile-pic{width:200px;height:200px;border-radius:16px;object-fit:cover;}
+
+/* Sections */
+.section{margin-top:28px}
+.section-title{font-size:18px;color:#0f1724;margin-bottom:10px;font-weight:700;border-left:4px solid #a78bfa;padding-left:10px}
+
+/* About */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.card{background:#fbfdff;padding:16px;border-radius:12px;border:1px solid rgba(34,51,68,0.04)}
+
+/* Skills */
+.skills{display:flex;flex-wrap:wrap;gap:10px}
+.skill{background:#f8fafc;padding:8px 12px;border-radius:999px;border:1px solid rgba(96,165,250,0.06);font-weight:600;color:#0f1724}
+
+/* Projects */
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.project{background:#fff;padding:14px;border-radius:12px;border:1px solid rgba(34,51,68,0.04);transition:transform .18s ease,box-shadow .18s ease}
+.project:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(16,24,40,0.06)}
+.project-title{font-weight:700;color:#0f1724}
+.project-desc{color:#475569;margin-top:8px}
+
+/* Contact */
+.contact-form{display:flex;flex-direction:column;gap:10px;max-width:560px}
+.input, textarea{padding:10px;border-radius:8px;border:1px solid rgba(34,51,68,0.08);background:transparent;color:inherit}
+
+/* Footer */
+.footer{margin-top:36px;padding:18px 0;text-align:center;color:#64748b;font-size:13px}
+
+/* Responsive */
+@media (max-width:900px){
+  .about-grid{grid-template-columns:1fr}
+  .hero{flex-direction:column}
+  .nav-links{display:none}
+  .profile-pic{width:160px;height:160px;border-radius:12px}
+}

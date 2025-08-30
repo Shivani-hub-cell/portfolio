@@ -1,0 +1,31 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e6e6fa, #ffe4e1);
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin: 10px 0 20px;
+  color: #666;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #6c63ff;
+  color: white;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #5548c8;
+}
