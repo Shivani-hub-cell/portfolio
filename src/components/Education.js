@@ -8,7 +8,7 @@ const Education = () => {
       <ul className="timeline">
         <li>
           <h3>Bachelor of Computer Science</h3>
-          <p>Rajasthan University (St.Wilfred Collage)(2020 - 2029)</p>
+          <p>Rajasthan University (St.Wilfred Collage)(2020 - 2024)</p>
         </li>
         <li>
           <h3>12th Grade</h3>
